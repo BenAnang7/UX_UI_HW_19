@@ -46,8 +46,8 @@ header p2 {
 .myWork {
     margin-top: 1px;
     margin-bottom: 1px;
-    padding: 90px 600px;
-    height: 750px;
+    padding: 100px 300px;
+    height: 900px;
     background-color: #070000;
   }
   
@@ -61,8 +61,10 @@ header p2 {
   
   .workGrid {
     display: grid;
-    grid-template-rows: repeat(3, 1fr); 
+    grid-template-columns: 750px;
     grid-gap: 30px; 
+    justify-content: center; /* Center the grid horizontally */
+  align-items: center; 
   }
   
   
@@ -72,6 +74,7 @@ header p2 {
     border: 1px solid #ccc;
     padding: 40px;
     text-align: center;
+    
   }
   
   .workItem img {
@@ -89,6 +92,18 @@ header p2 {
   
   .workItem p {
     font-size: 14px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .workItem button {
+    padding: 15px;
+    background-color: #670404;
+    color: rgb(251, 250, 250);
+    font-size: 15px;
+    border-radius: 4px;
+    margin-top: 35px;
+
   }
   .myWork h3 {
 
