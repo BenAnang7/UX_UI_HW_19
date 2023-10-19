@@ -1,0 +1,145 @@
+/* My UX Skills section coded using CSS flex */
+body {
+  margin: 0;
+}
+ 
+ header {
+  background-color: #7c0303;
+  padding: 8px;
+  height: 90px; 
+ 
+}
+header ul {
+font-size: 25px;
+  float: right;
+  color:#ffffff;
+  padding: 20px;
+
+}
+header li {
+  display:inline-block;
+  padding: 0px 30px;
+  
+}
+ul li a {
+  color: white;
+  text-decoration: none; 
+}
+header p {
+  display: inline-block;
+  font-size: 25px;
+  padding-inline-start: 10px;
+  color: #c6bcbc;
+  vertical-align: 30px;
+  
+}
+header p2 {
+  display: inline-block;
+  font-size: 25px;
+  text-decoration: underline;
+  color: #fefefe;
+  vertical-align: 30px;
+
+}
+.heroImg {
+
+  margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 50px;
+    height: 490px;
+  }
+  .content {
+    width:  400px;
+    height: 470px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    text-align: center;
+  }
+  button {
+    padding: 15px;
+    background-color: #670404;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+  }
+.mySkills {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .mySkills h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+  }
+  
+  .flexContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .flexChild {
+    flex-basis: calc(30.3333% - 20px);
+    background-color: #fff;
+    border: 1px solid #ea0b0b;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .flexChild img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .flexChild h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .flexChild p {
+    font-size: 14px;
+  }
+  
+
+footer {
+  background-color: #7c0303;
+  padding: 20px;
+  color: #FFFFFF;
+}
+
+footer ul {
+  display: inline-block;
+  vertical-align: top;
+  float: center
+}
+
+
+footer li {
+  display: inline-block;
+  float: center;
+  padding: 0px 20px;
+
+}
+footer p{
+float: right;
+padding: 0px 20px;
+}
+
+@media screen and (max-width: 600px) 
+  
+  .flexContainer {
+    flex-direction: column;
+  }
+
+
+  .flexChild {
+    width: 100%; 
+  }
+
+
+  
